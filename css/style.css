@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
     background-color: #4F4F8B;
     color: #F3F3F3;
     line-height: 1.4;
 }
+
+
 h1{
     margin-top: 30px;
     font-size: 36px;
@@ -38,9 +40,7 @@ p{
     height: 2rem;
     cursor: pointer;
     border-radius: 5px;
-}
-#survely-form .block::selection{
-    border: 1px solid blue;
+    outline-color: blue;
 }
 input.btn{
     background-color: #37AF65;
@@ -51,6 +51,8 @@ input.btn{
     cursor: pointer;
 
 }
+
 #survely-form textarea{
     width: 95%;
+    outline: none;
 }
