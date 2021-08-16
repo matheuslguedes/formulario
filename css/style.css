@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: #4F4F8B;
+    color: #F3F3F3;
+    line-height: 1.4;
+}
+h1{
+    margin-top: 30px;
+    font-size: 36px;
+    letter-spacing: 1.3;
+    text-align: center;
+}
+p{ 
+    padding: 30px 30px;
+    font-size: 22px;
+    font-style: italic;
+    text-align: center;
+
+}
+#survely-form{
+   background-color: #2A2A4A;
+   width: 550px;
+   margin: auto;
+   padding: 2rem;
+   border-radius: 10px;
+}
+#survely-form .block{
+    display: block;
+    width: 95%;
+    height: 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#survely-form .block::selection{
+    border: 1px solid blue;
+}
+input.btn{
+    background-color: #37AF65;
+    border-radius: 5px;
+    border: none;
+    width: 95%;
+    padding: 0.75rem;
+    cursor: pointer;
+
+}
+#survely-form textarea{
+    width: 95%;
+}
